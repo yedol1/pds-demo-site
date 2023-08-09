@@ -23,11 +23,11 @@
         "links": [
           {
             "name": "Email",
-            "link": "https://example.com"
+            "link": "mailto:yedol1@naver.com"
           },
           {
             "name": "GitHub",
-            "link": "https://example.com"
+            "link": "https://github.com/yedol1"
           }
         ]
       }

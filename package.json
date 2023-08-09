@@ -1,6 +1,6 @@
 {
-  "name": "PoinT Design System",
-  "version": "0.0.1",
+  "name": "point-design-system",
+  "version": "0.0.2",
   "description": "포인티 디자인 시스템 사용법을 알려주는 사이트입니다.",
   "license": "MIT",
   "author": {
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/"
+    "url": "https://github.com/yedol1/pds-demo-site/"
   },
   "homepage": "",
   "scripts": {
