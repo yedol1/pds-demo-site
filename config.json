@@ -1,0 +1,41 @@
+{
+  "data":{
+    "type": "local",
+    "name": "data"
+  },
+  "meta": {
+    "title": "PoinT Disign System",
+    "description": "포인티 디자인 시스템은 포인티의 디자인을 통일하고, 디자인을 쉽게 적용할 수 있도록 도와주는 시스템입니다.",
+    "image": "https://port-0-psd-asset-server-eg4e2alkf2i7md.sel4.cloudtype.app/uploads/images/Logo.svg"
+  },
+  "logo": {
+    "image": "https://port-0-psd-asset-server-eg4e2alkf2i7md.sel4.cloudtype.app/uploads/images/Logo.svg",
+    "text": "PoinT"
+  },
+  "header": {
+    "title": "PoinT Disign System",
+    "description": "포인티 디자인 시스템은 포인티의 디자인을 통일하고, 디자인을 쉽게 적용할 수 있도록 도와주는 시스템입니다."
+  },
+  "footer": {
+    "section": [
+      {
+        "linkTitle": "Social",
+        "links": [
+          {
+            "name": "Email",
+            "link": "https://example.com"
+          },
+          {
+            "name": "GitHub",
+            "link": "https://example.com"
+          }
+        ]
+      }
+    ],
+    "copyright": "© 2023 PoinT Design System Demo ( 제작 : 이광렬 )"
+  },
+  "analytics": {
+    "type": "Google Analytics",
+    "id": ""
+  }
+}

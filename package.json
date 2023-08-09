@@ -1,0 +1,53 @@
+{
+  "name": "PoinT Design System",
+  "version": "0.0.1",
+  "description": "포인티 디자인 시스템 사용법을 알려주는 사이트입니다.",
+  "license": "MIT",
+  "author": {
+    "name": "Lee Gwang Ryeol",
+    "url": "https://github.com/yedol1"
+  },
+  "keywords": [
+    "PoinT Design System",
+    "ketotop",
+    "PoinT",
+    "NextJS"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "homepage": "",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "dayjs": "^1.10.7",
+    "gray-matter": "^4.0.3",
+    "markdown-to-jsx": "^7.1.3",
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-katex": "^3.0.1",
+    "react-notion": "^0.10.0",
+    "react-syntax-highlighter": "^15.4.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.8",
+    "@types/node": "18.11.17",
+    "@types/react": "^18.0.26",
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "prop-types": "^15.7.2",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.4.3"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
