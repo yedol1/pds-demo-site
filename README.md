@@ -7,3 +7,5 @@
 > 📎 <a href='https://pds-usage-site.vercel.app/'>사이트 URL</a>
 
 <br/>
+
+[MIT](https://github.com/apvarun/productlog-nextjs-theme/blob/master/LICENSE) © [Varun](https://apvarun.com)
