@@ -13,7 +13,5 @@ createdAt: '2023-08-10'
 | **width**     | number                  | 입력하면 해당 숫자만큼 너비가 지정됩니다. ( 필수❌ )                                     |
 
 ```jsx
-...
-<Fnd.IconStyles name={'add'} extension='svg' height={100} width={100} />
-...
+<Fnd.IconStyles name={'add'} extension="svg" height={100} width={100} />
 ```

@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Layout from '../../components/layout';
 import PostView from '../../components/postView';
 import Sidebar from '../../components/sidebar';
 import getSource from '../../lib';
 import { Post } from '../../lib/types/post';
+import MarkdownImage from '../../components/markdown/image';
 
 export default function Change({ post }: { post: Post }) {
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const imageSrc = `/static/gif/${post.slug}.gif`;
+
   return (
     <Layout title={post.title}>
       <Sidebar posts={[]} showBackHome={true} />
@@ -13,6 +17,21 @@ export default function Change({ post }: { post: Post }) {
         <div id={`${post.path}/${post.slug}`}>
           <PostView {...post} />
         </div>
+        {/* 시연영상 */}
+        <img
+          src={imageSrc}
+          alt="Tabs-DemoVideo"
+          style={{ display: 'none' }}
+          onLoad={() => setImageLoaded(true)}
+        />
+        {imageLoaded && (
+          <>
+            <h2 className="text-3xl font-bold inline-block mb-2">
+              {'.Gif Demo'}
+            </h2>
+            <MarkdownImage src={imageSrc} alt="Tabs-DemoVideo" />
+          </>
+        )}
       </div>
     </Layout>
   );

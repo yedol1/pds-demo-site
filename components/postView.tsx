@@ -5,7 +5,7 @@ import Markdown from 'markdown-to-jsx';
 import React from 'react';
 import dayjs from 'dayjs';
 import SyntaxHighlighter from 'react-syntax-highlighter';
-import { obsidian } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
+import { atomOneLight } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
 import 'katex/dist/katex.min.css';
 import { BlockMath } from 'react-katex';
 import { NotionRenderer } from 'react-notion';
@@ -74,7 +74,10 @@ export default function PostView({
                     }
 
                     return (
-                      <SyntaxHighlighter language={language} style={obsidian}>
+                      <SyntaxHighlighter
+                        language={language}
+                        style={atomOneLight}
+                      >
                         {children}
                       </SyntaxHighlighter>
                     );
@@ -101,7 +104,7 @@ export default function PostView({
                 }
 
                 return (
-                  <SyntaxHighlighter language={language} style={obsidian}>
+                  <SyntaxHighlighter language={language} style={atomOneLight}>
                     {children}
                   </SyntaxHighlighter>
                 );
