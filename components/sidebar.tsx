@@ -58,35 +58,40 @@ export default function Sidebar({
           ← Back home
         </Link>
       )}
-      {folders.map((folder) => (
-        <div key={folder} className="">
-          <a
-            href={`#${folder}`} // '#'을 추가
-            onClick={handleLinkClick(folder)}
-            className="text-xl mb-4"
-          >
-            {folder}
-          </a>
-          <div className="ml-4 ">
-            {posts
-              .filter((post) => post.path.split('/')[1] === folder)
-              .map((post) => (
-                <a
-                  href={`#${post.path}/${post.slug}`} // '#'을 추가
-                  key={post.slug}
-                  onClick={handleLinkClick(`${post.path}/${post.slug}`)} // ID 형식을 일치
-                  className={`text-lg mt-2 block ${
-                    activePost === `${post.path}/${post.slug}`
-                      ? 'text-blue-500'
-                      : 'text-gray-500'
-                  }`}
-                >
-                  {post.title}
-                </a>
-              ))}
+      {/* 스크롤 가능한 컨테이너 div 추가 */}
+      <div
+        className="overflow-y-auto hide-scrollbar max-h-[98vh]" // 테일윈드 클래스 사용
+      >
+        {folders.map((folder) => (
+          <div key={folder}>
+            <a
+              href={`#${folder}`}
+              onClick={handleLinkClick(folder)}
+              className="text-xl mb-4"
+            >
+              {folder}
+            </a>
+            <div className="ml-4">
+              {posts
+                .filter((post) => post.path.split('/')[1] === folder)
+                .map((post) => (
+                  <a
+                    href={`#${post.path}/${post.slug}`}
+                    key={post.slug}
+                    onClick={handleLinkClick(`${post.path}/${post.slug}`)}
+                    className={`text-lg mt-2 block ${
+                      activePost === `${post.path}/${post.slug}`
+                        ? 'text-blue-500'
+                        : 'text-gray-500'
+                    }`}
+                  >
+                    {post.title}
+                  </a>
+                ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }
