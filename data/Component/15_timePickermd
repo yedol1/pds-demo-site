@@ -13,12 +13,10 @@ createdAt: '2023-08-10'
 | **onChangeMinute** | **(param: number) => void** | 분을 변경하면 해당 숫자 값을 인자로 받는 함수입니다.( 필수:o: )   |
 
 ```jsx
-...
-<Cmp.Picker.time
-  onClickEffect={() => void}
-  onCancelEffect={() => void}
-  onChangeHour={() => void}
-  onChangeMinute={() => void}
+<Cmp.TimeStyle
+  onClickEffect={() => console.log('Clicked')}
+  onCancelEffect={() => console.log('Clicked')}
+  onChangeHour={(hour) => console.log(hour)}
+  onChangeMinute={(minute) => console.log(minute)}
 />
-...
 ```
