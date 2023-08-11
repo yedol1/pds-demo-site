@@ -15,12 +15,10 @@ createdAt: '2023-08-10'
 | **memberName** | **string**               | 로그인 된 사용자의 이름을 입력합니다. ( 필수❌ )                  |
 
 ```jsx
-...
 <Cmp.NavBarTop
-  page='menulist'
+  page="menulist"
   menuList={['내 정보', '공지사항', '앱 설정', '운영데이터']}
   selected={0}
-  memberName='박관리자01'
+  memberName="박관리자01"
 />
-...
 ```

@@ -14,19 +14,15 @@ createdAt: '2023-08-10'
 1️⃣ Contained 스타일
 
 ```jsx
-...
-<Cmp.Button.Contained size='x-small' state='disabled'>
+<Cmp.Button.Contained size="x-small" state="disabled">
   {'버튼'}
 </Cmp.Button.Contained>
-...
 ```
 
 2️⃣ Outline 스타일
 
 ```jsx
-...
-<Cmp.Button.Outline size='x-small' state='disabled'>
+<Cmp.Button.Outline size="x-small" state="disabled">
   {'버튼'}
 </Cmp.Button.Outline>
-...
 ```

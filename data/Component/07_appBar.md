@@ -14,9 +14,7 @@ createdAt: '2023-08-10'
 | **type**     | **'icon', 'button', 'plain'**                  | 서버에 저장되어있는 아이콘 명을 입력하면 앱바 우측에 아이콘이 나타납니다. ( 필수❌ ) |
 
 ```jsx
-...
-<Cmp.AppBar.Wrapper size='full' pagename='페이지네임' type='button'  />
-...
+<Cmp.AppBar.Wrapper size="full" pagename="페이지네임" type="button" />
 ```
 
 1️⃣ Icon 스타일 컴포넌트
@@ -26,12 +24,10 @@ createdAt: '2023-08-10'
 | **name** | **string** | 서버에 저장되어있는 아이콘 명을 입력하면 정상적으로 작동이 됩니다. ( 필수⭕ ) |
 
 ```jsx
-...
-<Cmp.AppBar.Wrapper pagename='페이지네임' type='icon' >
-   <Cmp.AppBar.Icon name='add_24px'  />
-   <Cmp.AppBar.Icon name='bin_24px' />
+<Cmp.AppBar.Wrapper pagename="페이지네임" type="icon">
+  <Cmp.AppBar.Icon name="add_24px" />
+  <Cmp.AppBar.Icon name="bin_24px" />
 </Cmp.AppBar.Wrapper>
-...
 ```
 
 2️⃣ Button 스타일 컴포넌트
@@ -42,14 +38,14 @@ createdAt: '2023-08-10'
 | **count** | **string** | 카운트 되는 숫자를 문자 형태로 넣어줍니다. ( 필수❌ ) |
 
 ```jsx
-...
-<Cmp.AppBar.Wrapper pagename='페이지네임' type='button' >
-    <Cmp.AppBar.Button text='버튼1' />
-    <Cmp.AppBar.Button text='버튼2' />
-</Cmp.AppBar.Wrapper>
+<>
+  <Cmp.AppBar.Wrapper pagename="페이지네임" type="button">
+    <Cmp.AppBar.Button text="버튼1" />
+    <Cmp.AppBar.Button text="버튼2" />
+  </Cmp.AppBar.Wrapper>
 
-<Cmp.AppBar.Wrapper pagename='페이지네임' type='button' >
-    <Cmp.AppBar.Button text='버튼' count='10' />
-</Cmp.AppBar.Wrapper>
-...
+  <Cmp.AppBar.Wrapper pagename="페이지네임" type="button">
+    <Cmp.AppBar.Button text="버튼" count="10" />
+  </Cmp.AppBar.Wrapper>
+</>
 ```

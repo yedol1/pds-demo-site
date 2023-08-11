@@ -19,15 +19,13 @@ createdAt: '2023-08-10'
   | **disabled**    | **boolean**                  | 사용가능 여부를 나타내는 값입니다. **true**이면 스타일도 바뀝니다.( 필수❌ )      |
 
 ```jsx
-...
 <Cmp.Dropdown
   title={'title'}
   placeholder={'placeholder'}
   value={value}
   items={items}
   onChange={(selected) => setValue(selected)}
-  width='30rem'
+  width="30rem"
   disabled={false}
 ></Cmp.Dropdown>
-...
 ```

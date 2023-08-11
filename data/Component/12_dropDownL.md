@@ -18,14 +18,12 @@ createdAt: '2023-08-10'
   | **onClose**  | **(params: string) => void** | 우측의 닫기 버튼 클릭 시 해당 리스트의 값을 인자로 받는 함수입니다.( 필수⭕ ) |
 
 ```jsx
-...
 <Cmp.ListDropdown
   category={'오른쪽 다리'}
   items={itemList}
   value={value}
   onChange={(selected) => onSelect(selected)}
   onClose={(selected) => onClose(selected)}
-  width='31.3rem'
+  width="31.3rem"
 ></Cmp.ListDropdown>
-...
 ```

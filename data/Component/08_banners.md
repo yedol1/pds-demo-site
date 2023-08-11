@@ -15,11 +15,9 @@ createdAt: '2023-08-10'
 | **$manual**    | **boolean ( 기본 : true )**            | false값을 넣으면 이미지를 배너의 크기에 맞춰 넣을 수 있습니다. ( 필수❌ )     |
 
 ```jsx
-...
 <Cmp.Banners
-  normalText='시리어스 근적외선'
-  boldText='대량구매 특별할인 최대 40%'
+  normalText="시리어스 근적외선"
+  boldText="대량구매 특별할인 최대 40%"
   src={이미지파일}
 />
-...
 ```

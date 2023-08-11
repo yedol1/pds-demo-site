@@ -19,7 +19,6 @@ createdAt: '2023-08-10'
 | **isOutlined**         | **boolean**              | true 의 값일경우, 최상위 컴포넌트에 border 값이 렌더되고, 반대일 경우 출력되지 않습니다. ( 필수⭕ )                              |
 
 ```jsx
-...
 <Cmp.Item.MemberOne
   publishDate={[2021, 10, 10]}
   membershipDuration={[2021, 10, 10, 2021, 10, 10]}
@@ -29,7 +28,6 @@ createdAt: '2023-08-10'
   isMale={true}
   isOutlined={true}
 />
-...
 ```
 
 2️⃣ Member_3 스타일 컴포넌트
@@ -45,7 +43,6 @@ createdAt: '2023-08-10'
 | **isOutlined**         | **boolean**              | true 의 값일경우, 최상위 컴포넌트에 border 값이 렌더되고, 반대일 경우 출력되지 않습니다. ( 필수⭕ )                            |
 
 ```jsx
-...
 <Cmp.Item.MemberThree
   publishDate={[2021, 8, 1]}
   name={'이광렬'}
@@ -54,7 +51,6 @@ createdAt: '2023-08-10'
   attendingPhysician={'김철수'}
   isOutlined={true}
 />
-...
 ```
 
 3️⃣ Staff_1 스타일 컴포넌트
@@ -70,16 +66,14 @@ createdAt: '2023-08-10'
 | **isOutlined**  | **boolean**              | true 의 값일경우, 최상위 컴포넌트에 border 값이 렌더되고, 반대일 경우 출력되지 않습니다. ( 필수⭕ )                            |
 
 ```jsx
-...
 <Cmp.Item.StaffOne
   name={'이광렬'}
   phoneNumber={'01022223333'}
   starRating={4.5}
   memberCount={10}
-  memo='메모'
+  memo="메모"
   isOutlined={true}
 />
-...
 ```
 
 4️⃣ Record 스타일 컴포넌트
@@ -93,14 +87,12 @@ createdAt: '2023-08-10'
 | **isOutlined**         | **boolean**      | true 의 값일경우, 최상위 컴포넌트에 border 값이 렌더되고, 반대일 경우 출력되지 않습니다. ( 필수⭕ ) |
 
 ```jsx
-...
 <Cmp.Item.Record
   publishDate={[2021, 10, 10]}
   templateName={'템플릿 이름'}
   attendingPhysician={'김철수'}
   isOutlined={true}
 />
-...
 ```
 
 5️⃣ TheraphyCenter 스타일 컴포넌트
@@ -113,14 +105,12 @@ createdAt: '2023-08-10'
 | **isOutlined**  | **boolean**      | true 의 값일경우, 최상위 컴포넌트에 border 값이 렌더되고, 반대일 경우 출력되지 않습니다. ( 필수⭕ ) |
 
 ```jsx
-...
 <Cmp.Item.TheraphyCenter
   publishDate={[2021, 10, 10]}
-  videoName='비디오 이름'
+  videoName="비디오 이름"
   uploadCount={10}
   isOutlined={true}
 />
-...
 ```
 
 6️⃣ Message 스타일 컴포넌트
@@ -133,12 +123,10 @@ createdAt: '2023-08-10'
 | **isOutlined**  | **boolean**      | true 의 값일경우, 최상위 컴포넌트에 border 값이 렌더되고, 반대일 경우 출력되지 않습니다. ( 필수⭕ ) |
 
 ```jsx
-...
 <Cmp.Item.Message
   publishDate={[2021, 10, 10]}
-  text='메시지'
+  text="메시지"
   starRating={4.5}
   isOutlined={true}
 />
-...
 ```

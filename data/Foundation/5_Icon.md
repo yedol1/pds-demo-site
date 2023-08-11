@@ -15,7 +15,5 @@ createdAt: '2023-08-10'
 > 📎 <a href='https://port-0-psd-asset-server-eg4e2alkf2i7md.sel4.cloudtype.app/'>서버 URL</a> <br/>
 
 ```jsx
-...
-<Fnd.IconStyles name={'add'} extension='svg' height={100} width={100} />
-...
+<Fnd.IconStyles name={'add'} extension="svg" height={100} width={100} />
 ```

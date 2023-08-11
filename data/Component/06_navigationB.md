@@ -13,10 +13,5 @@ createdAt: '2023-08-10'
 | **isLabel**  | **boolean** | 메뉴 리스트의 라벨(이름)을 표시합니다. ( 필수⭕ )                                                |
 
 ```jsx
-...
-<Cmp.NavBarBottom
-  selected={'home'}
-  isLabel={true}
-/>
-...
+<Cmp.NavBarBottom selected={'home'} isLabel={true} />
 ```

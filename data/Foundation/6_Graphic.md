@@ -15,7 +15,12 @@ createdAt: '2023-08-10'
 | **imgWidth**   | **number**                  | 입력하면 해당 숫자만큼 이미지의 너비가 지정됩니다. ( 필수❌ )                            |
 
 ```jsx
-...
-<Fnd.GraphicStyles name={'Album'} extension='svg' areaHeight={100} areaWidth={100} imgHeight={100} imgWidth={100} />
-...
+<Fnd.GraphicStyles
+  name={'Album'}
+  extension="svg"
+  areaHeight={100}
+  areaWidth={100}
+  imgHeight={100}
+  imgWidth={100}
+/>
 ```

@@ -14,9 +14,7 @@ createdAt: '2023-08-10'
 | **runningtime** | **number**                                                                  | **ms**단위로 숫자가 입력되면 **분:초**의 형태로 썸네일 우측 하단에 표시됩니다. 값이 없을경우 **0:00** 으로 표시됩니다. ( 필수❌ ) |
 
 ```jsx
-...
-<Cmp.VideoThumbnail src={이미지주소} state='normal' runningtime={65200} />
-...
+<Cmp.VideoThumbnail src={이미지주소} state="normal" runningtime={65200} />
 ```
 
 #### 2️⃣ ImageThumbnail
@@ -27,7 +25,5 @@ createdAt: '2023-08-10'
 | **src**   | **string**                                                    | 원하는 이미지 주소를 입력하면 이미지가 나타납니다. ( 필수⭕ )                      |
 
 ```jsx
-...
-<Cmp.ImageThumbnail src={이미지주소} state='error' />
-...
+<Cmp.ImageThumbnail src={이미지주소} state="error" />
 ```
